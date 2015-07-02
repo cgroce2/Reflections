@@ -4,4 +4,18 @@ Answer: When you initialize a new repo it creates the repo, so you can subsequen
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Answer: Staging area is where you add files to be committed from your working directory. It allows you to add/remove files from working directory before the commit, which is also the value in it :)
 
+How can you use the staging area to make sure you have one commit per logical change?
+Answer:  The staging area will have all files that were added from the repository, so you can see what files have changes and only commit those files you want to change per logical change.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+Answer: If you needed to create a breaking change to the current branch, or wanted to experiment on a different or new feature.  Branches would allow you to keep those changes separate while working on the new change.
+
+How do the diagrams help you visualize the branch structure?
+Answer:  They show each commit history of that particular branch, and also the branch history from master.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+Answer: The commits of one branch will be merged into the other branch (branch currently checked out).  To more easily see the commit history of each branch, and possible merge point.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+Answer: Automatic merging is good when it is clear and easy what to merge, but cons develop with more complex changes.  Manual merge allows conflicts to be resolved to make sure they are resolved correctly before the merge is completed.
  
