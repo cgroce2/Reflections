@@ -3,3 +3,6 @@ Answer: When you have created a branch and are ready to start pushing small chan
 
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
 Answer: Because accepting changes from the remote when you are ready allows you to keep working on your version without worrying about potential breaking changes coming down from the remote.
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+Answer: A branch can be only on one repo, usually your own local.  A clone is when you want to clone a repo to your machine.  A Fork is when you want to fork a repo on Github to your Github account.
