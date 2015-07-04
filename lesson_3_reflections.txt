@@ -9,3 +9,6 @@ Answer: A branch can be only on one repo, usually your own local.  A clone is wh
 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 Answer: So you can see the state either at the time of branching, or the changes since you branched.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+Answer: Through email or some other VC system.  Merges might be easier but filled with more conflicts, a lot would be harder…seeing the actual differences, resolving conflicts, etc…
