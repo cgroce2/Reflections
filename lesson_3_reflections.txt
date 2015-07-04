@@ -12,3 +12,6 @@ Answer: So you can see the state either at the time of branching, or the changes
 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 Answer: Through email or some other VC system.  Merges might be easier but filled with more conflicts, a lot would be harder…seeing the actual differences, resolving conflicts, etc…
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+Answer: When it could be a new feature or breaking changes. Allows freedom to work on feature.
